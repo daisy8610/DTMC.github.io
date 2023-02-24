@@ -10,6 +10,7 @@ $color_grey: #333333;
   width: 1024px;
 }
 
+
 .header-content {
   background-color: #fff5da;
   height: 70px;
@@ -41,13 +42,64 @@ a {
 .logo {
   text-indent:-101%;
   overflow: hidden;
-   width: 210px;
-  background: url(https://raw.githubusercontent.com/daisy8610/dtmc.github.io/main/%20dtmc%20logo.png) no-repeat;
+   width: 150px;
+  background: url(https://raw.githubusercontent.com/daisy8610/dtmc.github.io/main/assets/%20dtmc%20logo.png) no-repeat;
   background-size: cover;
-  height: 98px;
+  height: 70px;
   ;
 }
 
 .nav__text {
   letter-spacing: 3px;
+}
+
+.link-text:hover {
+  transition: all 0.2s;    /* 轉場效果 */
+  color: #FFB500;
+}
+
+body{
+  margin: 0;
+}
+
+.primary-content {
+  background-color: #fff5da;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 80px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.wrapper-primary-text {
+  width: 40%;
+}
+
+.primary__main-img {
+  width: 60%;
+  height: 100%;
+}
+
+.section__title {
+  font-family: "Philosopher";
+  font-weight: bold;
+  color: #000;
+  letter-spacing: 2px;
+  line-height: 1.2;
+}
+
+.primary__title {
+  font-size: 72px;
+  margin-bottom: 20px;
+}
+
+.primary__title > span {
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.primary__text {
+  margin-bottom: 25px;
 }

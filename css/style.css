@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Fira+Sans+Extra+Condensed:ital,wght@1,700&family=Philosopher:wght@700&display=swap");
 .wrapper-content {
   box-sizing: border-box;
@@ -35,12 +36,41 @@ a {
 .logo {
   text-indent: -101%;
   overflow: hidden;
-  width: 210px;
-  background: url(https://raw.githubusercontent.com/daisy8610/dtmc.github.io/main/%20dtmc%20logo.png) no-repeat;
+  width: 150px;
+  background: url(https://raw.githubusercontent.com/daisy8610/dtmc.github.io/main/assets/%20dtmc%20logo.png) no-repeat;
   background-size: cover;
-  height: 98px;
+  height: 70px;
 }
 
 .nav__text {
   letter-spacing: 3px;
+}
+
+.link-text:hover {
+  transition: all 0.2s; /* 轉場效果 */
+  color: #FFB500;
+}
+
+body {
+  margin: 0;
+}
+
+.primary-content {
+  background-color: #fff5da;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 80px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.wrapper-primary-text {
+  width: 40%;
+}
+
+.primary__main-img {
+  width: 60%;
+  height: 100%;
 }/*# sourceMappingURL=style.css.map */
