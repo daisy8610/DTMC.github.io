@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Fira+Sans+Extra+Condensed:ital,wght@1,700&family=Philosopher:wght@700&display=swap");
+.wrapper-content {
+  box-sizing: border-box;
+  width: 1024px;
+}
+
+.header-content {
+  background-color: #fff5da;
+  height: 70px;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-nav {
+  width: 330px;
+  display: flex;
+  justify-content: space-between;
+}
+
+body {
+  font-family: "Noto sans TC", sans-serif;
+  letter-spacing: 1px;
+  color: #333;
+  line-height: 1.4;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.logo {
+  text-indent: -101%;
+  overflow: hidden;
+  width: 210px;
+  background: url(https://raw.githubusercontent.com/daisy8610/dtmc.github.io/main/%20dtmc%20logo.png) no-repeat;
+  background-size: cover;
+  height: 98px;
+}
+
+.nav__text {
+  letter-spacing: 3px;
+}/*# sourceMappingURL=style.css.map */
